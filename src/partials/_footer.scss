@@ -1,0 +1,23 @@
+/* Styling for the footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding-block: 3em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em;
+  /* Styling for each section within the footer */
+    .footer-section {
+      p {
+        margin-bottom: 0.5em;
+      }
+      p.title {
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-bottom: 1em;
+      }
+    }
+  }
+ 
+
+
